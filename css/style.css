@@ -584,6 +584,41 @@ a:focus {
   font-weight: bold;
 }
 
+.img-box {
+  -webkit-animation: img-box-animate 15s infinite;
+          animation: img-box-animate 15s infinite;
+}
+
+@-webkit-keyframes img-box-animate {
+  0% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
+@keyframes img-box-animate {
+  0% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
 .animal_section .animal_container .box.b1 {
   -webkit-animation: odd-box-animate 60s infinite;
           animation: odd-box-animate 60s infinite;

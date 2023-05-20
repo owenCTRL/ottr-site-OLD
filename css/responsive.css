@@ -9,6 +9,12 @@
     height: auto;
   }
 
+  .pet_section .img-box {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .animal_section .animal_container .box {
     flex-basis: 45%;
   }
@@ -76,15 +82,14 @@
 
   .pet_section .img-box {
     padding: 0;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
   }
 
   .pet_section .detail-box .heading_container {
     padding-top: 50px;
     align-items: center;
     text-align: center;
-
   }
 
   .food_section {
@@ -135,11 +140,16 @@
     font-size: 2.5rem;
   }
 
+  .pet_section .img-box {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .animal_section .animal_container .box {
     flex-basis: 95%;
     animation: none !important;
   }
-
 
   .client_section .box {
     flex-direction: column;
@@ -162,18 +172,42 @@
   .pet_section .img-box::before {
     background-size: cover;
   }
+
+  .pet_section .img-box {
+    padding: 0;
+    width: 200px;
+  }
+
 }
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+  .pet_section .img-box {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
 
 @media (max-width: 375px) {
   .contact_section .map_container {
     height: 400px;
+  }
+
+  .pet_section .img-box {
+    padding: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+
+  .pet_section .img-box {
+    padding: 0;
+    width: 100%;
+    height: 100%;
   }
 }

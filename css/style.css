@@ -409,6 +409,13 @@ a:focus {
   padding-right: 5px;
 }
 
+.performance_paragraph p {
+  background: inherit;
+  background-clip: text;
+  color: transparent;
+  filter: invert(1);
+}
+
 .performance_paragraph p span {
   font-family: allenoire;
   font-size: 18px;
@@ -565,13 +572,6 @@ a:focus {
       flex-basis: 20%;
 }
 
-.animal_section .animal_container .box .img-box {
-  border-radius: 25px;
-  overflow: hidden;
-  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-}
-
 .animal_section .animal_container .box .img-box img {
   width: 100%;
 }
@@ -697,15 +697,16 @@ a:focus {
 
 .pet_section .img-box {
   position: relative;
+  overflow: hidden;
 }
 
 .pet_section .img-box img {
   content: "";
-  width: 100%;
-  height: 100%;
   background-image: url(../images/pet-bg.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-attachment: inherit;
+  background-position: center;
+  height: 100%;
 }
 
 .pet_section .detail-box p {
@@ -764,7 +765,8 @@ a:focus {
 }
 
 .us_section .us_container .box .img1-box {
-  height: 300px;
+  width: 200px;
+  padding-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -799,7 +801,7 @@ a:focus {
 .us_section .us_container::before {
   content: "";
   position: absolute;
-  bottom: 17.5%;
+  bottom: 20%;
   left: 50%;
   width: 80%;
   height: 1.5px;

@@ -38,6 +38,10 @@
     text-align: center;
   }
 
+  .slider_section.detail-box p {
+    text-align: center;
+  }
+
   .detail-box h4 {
     text-align: center;
   }
@@ -191,11 +195,6 @@
     text-align: center;
   }
 
-  .client_section .box .img-box {
-    margin: 0;
-    margin-bottom: 25px;
-  }
-
   .contact_section .map_container {
     height: 475px;
   }
@@ -231,8 +230,12 @@
 }
 
 @media (max-width: 375px) {
-  .detail-box {
+  .client_section.detail-box {
     padding-top: 50px;
+  }
+
+  .slider_section.detail-box {
+    padding-top: 100px;
   }
 
   .food_container .detail-box h6 {

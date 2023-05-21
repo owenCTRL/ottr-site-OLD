@@ -976,6 +976,9 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.client_section #carouselExampleControls {
   margin-top: 75px;
 }
 
@@ -1008,6 +1011,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

@@ -1,5 +1,5 @@
 # owenAPI.github.io
 
-property of ottr global assets
+Property of ottr Global Assets.
 
-2023, ALL RIGHTS RESERVED
+2023 All Rights Reserved

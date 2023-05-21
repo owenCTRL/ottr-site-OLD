@@ -70,6 +70,7 @@
 
   .slider_section .detail-box {
     text-align: center;
+    margin-top: 50px;
   }
 
   .slider_section .detail-box .btn-box {
@@ -81,6 +82,10 @@
   }
 
   .slider_section .img-box {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 35px;
     margin-bottom: 35px;
   }
 
@@ -150,6 +155,13 @@
 
   }
 
+}
+
+@media (min-width: 768px) {
+  .slider_section .container-fluid {
+    padding-bottom: 75px;
+    padding-top: 75px;
+  }
 }
 
 @media (max-width: 576px) {

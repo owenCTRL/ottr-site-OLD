@@ -6357,6 +6357,8 @@ a.close.disabled {
   right: 0;
   bottom: 0;
   left: 0;
+  height: 0%;
+  margin-bottom: -10px;
   z-index: 15;
   display: -ms-flexbox;
   display: flex;
@@ -6372,17 +6374,18 @@ a.close.disabled {
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
-  margin-right: 3px;
-  margin-left: 3px;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #2c65e1;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  opacity: .5;
+  border-radius: 50%;
+  opacity: .3;
   transition: opacity 0.6s ease;
 }
 
@@ -6393,7 +6396,7 @@ a.close.disabled {
 }
 
 .carousel-indicators .active {
-  opacity: 1;
+  opacity: 2;
 }
 
 .carousel-caption {

@@ -206,6 +206,20 @@
     background-size: cover;
   }
 
+  .projects_page {
+    position: relative;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .projects_heading {
+    font-size: 30px;
+    z-index: 100;
+    margin-left: auto !important;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
   .pet_section .img-box {
     padding: 0;
     width: 100%;

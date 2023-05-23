@@ -85,6 +85,33 @@ h6, p {
   font-weight: bold;
 }
 
+.projects_hero {
+  height: 100vh;
+  background-image: url(../images/hero-bg.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.projects_hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 88%;
+  background-image: url(../images/hero-bg2.png);
+  background-size: cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
 /*header section*/
 .hero_area {
   height: 100vh;
@@ -98,6 +125,39 @@ h6, p {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+}
+
+.projects_page {
+  position: relative;
+  margin-left: 25%;
+  margin-right: auto !important;
+}
+
+.project {
+  z-index: 100;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vh;
+  display:flex;
+  align-items: flex-end;
+}
+
+.projects_heading {
+  font-size: 36px;
+  z-index: 100;
+  margin-left: 25% !important;
+}
+
+.project_div {
+  margin-bottom: 100px;
+}
+
+.project_slider_section {
+  height: 50vh;
+}
+
+.project_slider_section img {
+  width: 175px;
 }
 
 .hero_area::before {
@@ -256,6 +316,10 @@ a:focus {
   background-color: transparent;
 }
 
+.custom_menu-btn button:click {
+  background-color: transparent;
+}
+
 .custom_menu-btn button span {
   display: block;
   width: 35px;
@@ -293,6 +357,11 @@ a:focus {
 .menu_btn-style button .s-3 {
   -webkit-transform: rotate(-45deg) translateY(-16px);
           transform: rotate(-45deg) translateY(-16px);
+}
+
+.menu_btn-style button .s-4 {
+  -webkit-transform: translateX(-11.5px);
+          transform: translateX(-11.5px);
 }
 
 .overlay {

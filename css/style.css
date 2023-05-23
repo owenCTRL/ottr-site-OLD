@@ -35,7 +35,7 @@ h6, p {
   display: flex;
   gap: 20px;
   overflow:hidden;
-  -webkit-mask: linear-gradient(90deg,#0000,#000 5% 80%,#0000)
+  -webkit-mask: linear-gradient(90deg,#0000,#000 5% 90%,#0000)
 }
 
 .layout_padding {

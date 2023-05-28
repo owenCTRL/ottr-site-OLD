@@ -1227,6 +1227,10 @@ a:focus {
   justify-content: center;
 }
 
+.projects_page {
+  display: inline;
+}
+
 .info_contact > div img {
   height: auto;
   margin-right: 12px;

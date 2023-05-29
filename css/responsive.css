@@ -217,7 +217,19 @@
     z-index: 100;
     margin-left: auto !important;
     text-align: center;
-    padding-bottom: 15px;
+  }
+
+  h4.services {
+    font-size: 20px;
+  }
+
+  p.services {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .project_slider_section img {
+    width: 200px;
   }
 
   .pet_section .img-box {

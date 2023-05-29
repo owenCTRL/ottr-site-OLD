@@ -129,23 +129,37 @@ h6, p {
 
 .projects_page {
   position: relative;
-  margin-left: 25%;
+  margin-left: auto !important;
   margin-right: auto !important;
+  text-align: center;
 }
 
 .project {
   z-index: 100;
   margin-left: auto;
   margin-right: auto;
-  height: 30vh;
+  height: 20vh;
   display:flex;
   align-items: flex-end;
 }
 
 .projects_heading {
-  font-size: 36px;
+  font-size: 45px;
   z-index: 100;
-  margin-left: 25% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-items: center;
+  text-align: center;
+
+}
+
+h4.services {
+  font-size: 25px;
+}
+
+p.services {
+  font-size: 20px;
+  margin-top: -10px;
 }
 
 .project_div {
@@ -154,10 +168,11 @@ h6, p {
 
 .project_slider_section {
   height: 50vh;
+  padding-top: 25px;
 }
 
 .project_slider_section img {
-  width: 175px;
+  width: 300px;
 }
 
 .hero_area::before {

@@ -82,23 +82,18 @@
                 Reach out. We're here to help!
               </p>
             </div>
-            <form action="mailto:ottr.xyz@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
+            <form action="contactform.php" method="post">
               <div>
-                <input type="text" placeholder="Full Name " />
+                <input type="text" name="full_name" placeholder="Full Name" />
               </div>
               <div>
-                <input type="text" placeholder="Phone number" />
+                <input type="text" name="email" placeholder="Email" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" name="message_box" class="message-box" placeholder="Message" />
               </div>
               <div class="d-flex ">
-                <button>
-                  Send
-                </button>
+                <input type="submit" style="color:gray"value="Submit">
               </div>
             </form>
           </div>
@@ -135,7 +130,7 @@
             <div>
               <img src="images/mail.png" alt="" />
               <p>
-                sales@ottr.site
+                info@ottr.site
               </p>
             </div>
           </div>

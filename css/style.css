@@ -1199,6 +1199,10 @@ a:focus {
   margin-left: 45px;
 }
 
+.form_responsive {
+  text-align: center;
+}
+
 .contact_section .map_container .map-responsive {
   height: 100%;
 }

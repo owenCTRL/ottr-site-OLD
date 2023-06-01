@@ -63,6 +63,10 @@
     text-align: center;
   }
 
+  .form_responsive {
+    text-align: center;
+  }
+
   .errors_hero::before {
     background-image: url(../images/hero-bg2.png);
     background-size: 40%;

@@ -5,6 +5,13 @@
   .pet_section .img-box img {
     background-size: contain;
   }
+
+  .errors_hero::before {
+    background-image: url(../images/hero-bg2.png);
+    background-size: 30%;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
 }
 
 @media (max-width: 992px) {
@@ -30,12 +37,37 @@
   .contact_section .form_container {
     padding: 0;
   }
+
+  .error_404 {
+    font-family: allenoire;
+    font-size: 250px;
+    color: #0a131e;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .error_text {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 768px) {
 
   p {
     text-align: center;
+  }
+
+  .errors_hero::before {
+    background-image: url(../images/hero-bg2.png);
+    background-size: 40%;
+    background-position: right top;
+    background-repeat: no-repeat;
   }
 
   .slider_section.detail-box p {
@@ -168,10 +200,52 @@
   }
 }
 
+@media (min-width: 589px) {
+  .error_404 {
+    font-family: allenoire;
+    font-size: 250px;
+    color: #0a131e;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .error_text {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @media (max-width: 576px) {
   .heading_container {
     align-items: center;
     text-align: center;
+  }
+
+  .error_404 {
+    font-family: allenoire;
+    font-size: 150px;
+    color: #0a131e;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .error_text {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .slider_section .detail-box h1 {
@@ -199,11 +273,25 @@
     height: 475px;
   }
 
+  .errors_hero::before {
+    background-image: url(../images/hero-bg2.png);
+    background-size: 50%;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
 }
 
 @media (max-width: 480px) {
   .pet_section .img-box::before {
     background-size: cover;
+  }
+
+  .errors_hero::before {
+    background-image: url(../images/hero-bg2.png);
+    background-size: 60%;
+    background-position: right top;
+    background-repeat: no-repeat;
   }
 
   .projects_page {

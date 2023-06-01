@@ -15,6 +15,24 @@ h1 {
   color: #0a131e;
 }
 
+.error_404 {
+  font-family: allenoire;
+  font-size: 450px;
+  color: #0a131e;
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: -100px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.error_text {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0;
+}
+
 .btn-2, button {
   font-family: 'Poppins', sans-serif;
 }
@@ -83,6 +101,33 @@ h6, p {
 
 .heading_container h2 {
   font-weight: bold;
+}
+
+.errors_hero {
+  height: 100vh;
+  background-image: url(../images/hero-bg.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.errors_hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 88%;
+  background-image: url(../images/hero-bg2.png);
+  background-size: 20%;
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
 .projects_hero {

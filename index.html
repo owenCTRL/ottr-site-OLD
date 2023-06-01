@@ -25,7 +25,6 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  <link href="contactform.php" rel="" />
   <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fbcef75941d4667615a726f89/3161cc5759c677401a18a0652.js");</script>
 </head>
 
@@ -408,18 +407,23 @@
                 Reach out. We're here to help!
               </p>
             </div>
-            <form action="contactform.php" method="post">
+            <form action="mailto:ottr.xyz@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
               <div>
-                <input type="text" name="full_name" placeholder="Full Name" />
+                <input type="text" placeholder="Full Name " />
               </div>
               <div>
-                <input type="text" name="email" placeholder="Email" />
+                <input type="text" placeholder="Phone number" />
               </div>
               <div>
-                <input type="text" name="message_box" class="message-box" placeholder="Message" />
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" />
               </div>
               <div class="d-flex ">
-                <input type="submit" style="color:gray"value="Submit">
+                <button>
+                  Send
+                </button>
               </div>
             </form>
           </div>

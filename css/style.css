@@ -3,6 +3,11 @@
   src: url(../fonts/Allenoire.otf);
 }
 
+@font-face {
+  font-family: helveticanow;
+  src: url(../fonts/HelveticaNowText-Regular.ttf);
+}
+
 body {
   font-family: allenoire;
   color: #0a131e;
@@ -34,7 +39,8 @@ h1 {
 }
 
 .btn-2, button {
-  font-family: 'Poppins', sans-serif;
+  font-family: helveticanow;
+
 }
 
 h5 {
@@ -46,7 +52,8 @@ h2 {
 }
 
 h6, p {
-  font-family: 'Poppins', sans-serif;
+  font-family: helveticanow;
+
 }
 
 .carousel-inner {
@@ -198,14 +205,15 @@ h6, p {
 
 }
 
-h4.services {
-  font-size: 25px;
-  padding-left: 7px;
-}
-
 p.services {
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: -15px;
+  font-family: helveticanow;
+}
+
+p.info_contact {
+  font-family: helveticanow;
+  font-size: 20px;
 }
 
 .project_div {
@@ -540,7 +548,7 @@ a:focus {
 }
 
 .heading_container p span.fee {
-  font-family: "Poppins", sans-serif;
+  font-family: helveticanow;
   font-size: 18px;
   background-color: yellow;
   padding-left: 5px;
@@ -669,7 +677,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   color: #2c65e1;
-  font-family: 'Poppins', sans-serif;
+  font-family: helveticanow;
 }
 
 .about_section .detail-box .btn-box a img {
@@ -1152,7 +1160,7 @@ a:focus {
   background-color: #ebebeb;
   outline: none;
   color: #101010;
-  font-family: 'Poppins', sans-serif;
+  font-family: helveticanow;
 }
 
 .contact_section input::-webkit-input-placeholder {
@@ -1212,7 +1220,7 @@ a:focus {
   background-color: #0a2050;
   color: #ffffff;
   padding: 40px 0 75px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: helveticanow;
 }
 
 .info_section .row > div {
@@ -1224,7 +1232,7 @@ a:focus {
 }
 
 .info_form input {
-  font-family: 'Poppins', sans-serif;
+  font-family: helveticanow;
   text-align: center;
   width: 100%;
   border: none;

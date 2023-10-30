@@ -94,6 +94,10 @@ h6, p {
   padding-bottom: 120px;
 }
 
+.read_more {
+  margin-top: 8px;
+}
+
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;

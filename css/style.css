@@ -120,7 +120,7 @@ h6, p {
 }
 
 .errors_hero {
-  height: 100vh;
+  height: 66.5vh;
   background-image: url(../images/hero-bg.png);
   background-size: cover;
   display: -webkit-box;
@@ -165,8 +165,8 @@ h6, p {
   position: absolute;
   top: 0;
   right: 0;
-  width: 45%;
-  height: 88%;
+  width: 35%;
+  height: 68%;
   background-image: url(../images/hero-bg2.png);
   background-size: cover;
   background-position: left bottom;
@@ -225,13 +225,8 @@ p.info_contact {
   font-size: 20px;
 }
 
-.project_div {
-  margin-bottom: 100px;
-}
-
 .project_slider_section {
-  height: 50vh;
-  padding-top: 25px;
+  margin-top: 5%;
 }
 
 .project_slider_section img {
@@ -695,7 +690,7 @@ a:focus {
 }
 
 .animal_section {
-  background-image: url(../images/bg.png);
+  background-image: url(../images/blue_bg.png);
   background-size: cover;
   color: #ffffff;
 }
@@ -881,7 +876,7 @@ a:focus {
 
 .pet_section .img-box img {
   content: "";
-  background-image: url(../images/pet-bg.png);
+  background-image: url(../images/blurb-bg.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-position: center;
@@ -1115,7 +1110,7 @@ a:focus {
 }
 
 .client_section {
-  background-image: url(../images/client-bg.png);
+  background-image: url(../images/white_bg.png);
   background-size: cover;
 }
 

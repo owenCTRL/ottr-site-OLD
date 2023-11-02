@@ -1223,16 +1223,12 @@ a:focus {
 .info_section {
   background-color: #0a2050;
   color: #ffffff;
-  padding: 40px 0 75px 0;
+  padding: 40px 0 50px 0;
   font-family: helveticanow;
 }
 
 .info_section .row > div {
   margin-top: 35px;
-}
-
-.info_section h5 {
-  margin-bottom: 25px;
 }
 
 .info_form input {
